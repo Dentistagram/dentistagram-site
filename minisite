@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DENTISTAGRAM Dental Clinic — Company Profile</title>
+  <meta name="description" content="DENTISTAGRAM Dental Clinic - Think health & handle with care">
+  <style>
+    :root{--accent:#0ea5a4;--dark:#0f172a;--muted:#6b7280;--bg:#f8fafc}
+    body{font-family:Arial, sans-serif;margin:0;background:var(--bg);color:var(--dark);line-height:1.5}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1000px;margin:0 auto;padding:24px}
+    header{background:#fff;border-radius:12px;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 4px 14px rgba(0,0,0,0.1)}
+    .logo{display:flex;align-items:center;gap:12px;font-weight:700;color:var(--accent);font-size:20px}
+    .logo img{height:50px}
+    .btn{background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;font-weight:600}
+    .section{background:#fff;padding:24px;border-radius:12px;margin:20px 0;box-shadow:0 4px 14px rgba(0,0,0,0.05)}
+    .grid-3{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+    .card{border:1px solid #e6eef0;border-radius:10px;padding:16px}
+    .muted{color:var(--muted)}
+    footer{text-align:center;font-size:13px;color:var(--muted);margin-top:24px}
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- HEADER SECTION -->
+  <header>
+    <div class="logo">
+      <img src="Minisite/logo-clinic.png" alt="DENTISTAGRAM Logo">
+      <div>
+        <div>DENTISTAGRAM</div>
+        <div style="font-size:14px;font-weight:400;color:var(--muted)">Dental Clinic</div>
+      </div>
+    </div>
+    <a href="#contact" class="btn">Hubungi Kami</a>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="section" id="hero">
+    <h1>DENTISTAGRAM Dental Clinic</h1>
+    <p class="muted">Think health & handle with care</p>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="section" id="about">
+    <h2>Tentang Kami</h2>
+    <p>DENTISTAGRAM DENTAL CLINIC adalah klinik gigi yang beralamat di Jakarta Barat. Kami berkomitmen memberikan layanan kesehatan gigi terbaik dengan tenaga profesional dan fasilitas yang nyaman.</p>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="section" id="services">
+    <h2>Produk & Layanan</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Pencegahan Kesehatan Gigi</h3>
+        <p class="muted">Layanan pemeriksaan rutin, pembersihan gigi, dan edukasi menjaga kesehatan gigi.</p>
+      </div>
+      <div class="card">
+        <h3>Perawatan Kesehatan Gigi</h3>
+        <p class="muted">Layanan perawatan seperti penambalan, scaling, dan perawatan estetika gigi.</p>
+      </div>
+      <div class="card">
+        <h3>Pengobatan Kesehatan Gigi</h3>
+        <p class="muted">Penanganan masalah gigi dan mulut, perawatan saluran akar, hingga bedah gigi kecil.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADVANTAGES SECTION -->
+  <section class="section" id="advantages">
+    <h2>Keunggulan Kami</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Pelayanan Optimal</h3>
+        <p class="muted">Tim profesional dengan pelayanan terbaik untuk semua pasien.</p>
+      </div>
+      <div class="card">
+        <h3>Best Price, Accurate & Hygienist</h3>
+        <p class="muted">Harga terjangkau dengan standar kebersihan dan ketepatan tinggi.</p>
+      </div>
+      <div class="card">
+        <h3>Comfort & Clean</h3>
+        <p class="muted">Ruang perawatan yang nyaman, bersih, dan higienis.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section class="section" id="testimonials">
+    <h2>Testimoni Pasien</h2>
+    <div class="card"><strong>Agus, 40 tahun, Jakarta</strong><br><span class="muted">“Gigi saya sudah sembuh dengan baik setelah perawatan.”</span></div>
+    <div class="card"><strong>Budi, 23 tahun, Bogor</strong><br><span class="muted">“Gusi saya membaik setelah ditangani dokter kami.”</span></div>
+    <div class="card"><strong>Cintya, 37 tahun, Bekasi</strong><br><span class="muted">“Pemasangan kawat gigi berjalan lancar, hasilnya memuaskan.”</span></div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section" id="contact">
+    <h2>Kontak & Interaksi</h2>
+    <form action="https://formspree.io/f/FORM_ENDPOINT" method="POST">
+      <label>Nama</label>
+      <input type="text" name="name" required>
+      <label>Email</label>
+      <input type="email" name="email" required>
+      <label>Telepon</label>
+      <input type="text" name="phone">
+      <label>Pesan</label>
+      <textarea name="message" rows="4" required></textarea>
+      <button type="submit" class="btn">Kirim</button>
+    </form>
+    <p style="margin-top:12px">Atau klik langsung: <a href="https://wa.me/6281234567890" class="btn">Chat via WhatsApp</a></p>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer>
+    <p><strong>Alamat:</strong> Jl. Gatot Subroto – Jakarta Barat</p>
+    <p><strong>Media Sosial:</strong> Instagram | TikTok | Facebook</p>
+    <p>© 2025 DENTISTAGRAM Dental Clinic. All rights reserved.</p>
+  </footer>
+
+</div>
+</body>
+</html>
